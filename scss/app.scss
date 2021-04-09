@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #b4b4b4;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.widjet-weather {
+  background-color: #fff;
+  outline: none;
+}
+.content {
+  background-color: #b4f1b7;
+}
+.wind {
+  display: flex;
+  justify-content: space-around;
+}
+.content {
+  padding: 8px;
+}
+.list {
+  padding: 16px;
+  background-color: #c4b6b6;
+}
+.location {
+  display: flex;
+}
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-weather {
+  text-align: center;
+}
+.icon-weather > img {
+  width: 100px;
+}
+.temp {
+  text-align: center;
+  font-size: 32px;
+}
+.temp-feels-like {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.time {
+  display: flex;
+  align-items: baseline;
+}
+.wind-direct {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.wind-speed {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
